@@ -83,10 +83,59 @@ h1 {
 
 .msg {
     width: 475px;
+    height: 50px;
     padding: 15px;
     background-color: #32012F;
     font-size: 23px;
     color: white;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:790px){
+    .image-box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .image {
+        width: 105px;
+        height: 105px;
+    }
+
+    .image:hover {
+        cursor: pointer;
+        width: 110px;
+        height: 110px;
+    }
+
+    .msg {
+        width: 50vw;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .image-box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .image {
+        width: 105px;
+        height: 105px;
+    }
+
+    .image:hover {
+        width: 100px;
+        height: 100px;
+    }
+
+    .msg {
+        width: 50vw;
+        font-size: 16px;
+    }
 }
